@@ -1,6 +1,5 @@
 City With Most Amenities
 
-
 Interview Question Date: February 2018
 
 Airbnb
@@ -17,7 +16,3 @@ from (select *
 , LENGTH(amenities) - LENGTH(REPLACE(amenities, ',', '')) + 1 as num_amenities
 from airbnb_search_details) sub
 having max(num_amenities)
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
